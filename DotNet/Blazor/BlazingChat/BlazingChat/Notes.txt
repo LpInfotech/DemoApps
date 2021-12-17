@@ -1,0 +1,14 @@
+1. Why We run server first ?
+- Because there is both project reference in it, so will building server will build both cleint and Common project
+
+2. NavigationManager class is there, by default rout peram is in string but can mention in the route the type  
+
+3. Add .net core ef 
+
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 6.0.0
+
+dotnet add package Bricelam.EntityFrameworkCore.Pluralizer --version 1.0.0
+
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators
+
+Singlton vs transient 

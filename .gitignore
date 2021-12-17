@@ -51,3 +51,10 @@ Makefile
 /DotNet/Training/Window/WinForms-Demo/.vs
 /DotNet/Training/Window/WinForms-Demo/bin/Debug
 /DotNet/Training/Window/WinForms-Demo/obj
+/DotNet/Blazor/BlazingChat/.vs/BlazingChat
+/DotNet/Blazor/BlazingChat/BlazingChat/Client/bin/Debug/net5.0
+/DotNet/Blazor/BlazingChat/BlazingChat/Client/obj
+/DotNet/Blazor/BlazingChat/BlazingChat/Shared/bin/Debug/net5.0
+/DotNet/Blazor/BlazingChat/BlazingChat/Server/bin/Debug/net5.0
+/DotNet/Blazor/BlazingChat/BlazingChat/Server/obj
+/DotNet/Blazor/BlazingChat/BlazingChat/Shared/obj

@@ -1,0 +1,43 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager _navigationManager
+@inject HttpClient _httpClient
+
+
+    <AuthorizeView>
+        <Authorized>
+
+            <button class="btn btn-danger" @onclick="LogoutUser">Logout</button>
+
+        </Authorized>
+        <NotAuthorized>
+
+            <button class="btn btn-primary" @onclick="LoginUser">Login</button>
+
+        </NotAuthorized>
+    </AuthorizeView>
+
+
+<div class="main container">
+
+
+
+
+    
+        @Body
+ 
+</div>
+
+@code{
+
+    private async Task LogoutUser()
+    {
+        await _httpClient.GetAsync("user/logoutuser");
+        _navigationManager.NavigateTo("/", true);
+    }
+
+    private void LoginUser()
+    {
+        _navigationManager.NavigateTo("/", true);
+    }
+
+}
